@@ -1,0 +1,201 @@
+
+
+
+
+
+/* Register Form */
+.register-header{
+    height: 84px;
+    /* background-image: linear-gradient(0, #fe6433, #f53e2d); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.register-header__title{
+    display: flex;
+    align-items: flex-end;
+    line-height: 30px;
+    margin-top: -10px;
+    margin-left: 24px;
+}
+.register-header__logo-link{
+
+}
+.register-header__logo-img{
+    display: block;
+    /* width: 140px; */
+    height: 42px;
+    fill: var(--primary-color);
+}
+.register-header__name{
+    font-size: 2.4rem;
+    margin-left: 16px;
+}
+.register-header__link{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--primary-color);
+    margin-right: 16px;
+}
+
+.register-container__wrap{
+    height: 600px;
+}
+.register-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.register-form{
+    min-height: 400px;
+    width: 400px;
+    background-color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    padding: 22px 30px;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+.register-form__title,
+.login-form__title{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--text-color);
+    margin: 0;
+    padding-bottom: 12px;
+}
+.register-form__inp,
+.login-form__inp{
+    font-size: 1.2rem;
+    padding: 12px 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    margin: 6px 0;
+}
+.register-form__inp::placeholder,
+.login-form__inp::placeholder{
+    color: rgba(0, 0, 0, 0.4);
+}
+.register-form__btn,
+.login-form__btn{
+    margin-top: 22px;
+}
+
+.register-form__sepepate{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.register-form__sepepate span{
+    font-size: 1.8rem;
+    color: rgba(0, 0, 0, 0.25);
+    margin: 0 12px;
+}
+.register-form__seperate-line{
+    display: block;
+    height: 1px;
+    width: 100%;
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.register-form__social-connect{
+    display: flex;
+}
+.register-form__social-connect-btn{
+    flex: 1;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 0 4px;
+    font-size: 1.6rem;
+    height: 34px;
+    text-decoration: none;
+    border-radius: 2px;
+    line-height: 1.6rem;
+    outline: none;
+    cursor: pointer;
+    color: var(--text-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-form__social-connect-btn:nth-child(2){
+    margin: 0 12px;
+}
+
+.register-form__social-connect-icon{
+    font-size: 1.8rem;
+    margin-top: -4px;
+    margin-right: 8px;
+}
+.register-form__term{
+    font-size: 1.2rem;
+    line-height: 18px;
+    text-align: center;
+    margin: 32px 0;
+}
+.register-form__term a,
+.register-form__navigation a,
+.login-form__navigation a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.register-form__navigation,
+.login-form__navigation{
+    color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+
+/* Login form */
+.login-form__navigation{
+    margin-top: 26px;
+}
+
+.login-form__heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.login-form__title{
+    
+}
+
+.login-form__qr-code{
+   display: block;
+
+}
+.login-form__qr-conduct{
+    position: relative;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #ffbf00;
+    max-width: 164px;
+    padding: 10px 14px;
+    margin-top: -8px;
+    border: 2px solid #ffbf00;
+}
+
+.login-form__qr-conduct::after{
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: calc(50% - 0px);
+    width: 0.75rem;
+    height: 0.75rem;
+    transform: rotate(45deg) translateX(-50%);
+    border-top: 2px solid #ffbf00;
+    border-right: 2px solid #ffbf00;
+    background-color: var(--white-color);
+}
